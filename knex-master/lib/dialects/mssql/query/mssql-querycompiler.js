@@ -31,7 +31,7 @@ class QueryCompiler_MSSQL extends QueryCompiler {
     this._emptyInsertValue = 'default values';
   }
 
-  select() {
+  select() { 
     const sql = this.with();
     const statements = components.map((component) => this[component](this));
     return sql + compact(statements).join(' ');
