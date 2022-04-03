@@ -6,4 +6,4 @@ module.exports = {
   DEFAULT_TABLE_NAME,
 };
  
- 
+
