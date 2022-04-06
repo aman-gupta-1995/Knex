@@ -6,7 +6,7 @@ const knex = Knex(clientConfig);
  
 // Use:
 // import Knex from 'knex'  
-// when "esModuleInterop": true 
+// when "esModuleInterop": true  
  
 const main = async () => {
   // default returning is number[]
