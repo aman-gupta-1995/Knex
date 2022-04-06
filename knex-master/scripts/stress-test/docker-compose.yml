@@ -27,7 +27,7 @@ services:
     image: mdillon/postgis
     ports:
       - "35432:5432"
-    environment:
+    environment: 
       - POSTGRES_PASSWORD=postgresrootpassword
       - POSTGRES_USER=postgres
 
