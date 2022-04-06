@@ -7,7 +7,7 @@ const knex = Knex(clientConfig);
 // Use:
 // import Knex from 'knex'
 // when "esModuleInterop": true
-
+ 
 const main = async () => {
   // default returning is number[]
   expectType<number[]>(await knex.batchInsert('table', [{a: 2, id: 3}] as const, 12));
