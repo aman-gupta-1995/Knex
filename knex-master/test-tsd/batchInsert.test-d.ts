@@ -5,7 +5,7 @@ import { clientConfig } from './common';
 const knex = Knex(clientConfig);
  
 // Use:
-// import Knex from 'knex'
+// import Knex from 'knex' 
 // when "esModuleInterop": true
  
 const main = async () => {
