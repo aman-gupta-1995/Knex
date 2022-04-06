@@ -32,7 +32,7 @@ const main = async () => {
     knex.batchInsert('table', [{aa2: 'string', b: false, c: 12}], 12)
       .returning('bad_column')
   );
-
+ 
   // assert any bad column from returning list gives error
   expectError(
     knex.batchInsert('table', [{aa2: 'string', b: false, c: 12}], 12)
