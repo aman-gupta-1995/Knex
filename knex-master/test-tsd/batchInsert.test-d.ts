@@ -1,5 +1,5 @@
 import Knex from '../types';
-import { expectError, expectType } from 'tsd';
+import { expectError, expectType } from 'tsd'; 
 import { clientConfig } from './common';
 
 const knex = Knex(clientConfig);
