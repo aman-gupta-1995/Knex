@@ -29,7 +29,7 @@ module.exports = function (knex) {
       })
       .then(function (row) {
         // triggers request execution
-      })
+      }) 
       .then(function () {  
         return knex(tableName)
           .where('expiry', negativeUnsafeBigint)
