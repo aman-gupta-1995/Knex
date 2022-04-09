@@ -7,7 +7,7 @@ module.exports = function (knex) {
   const bigintTimestamp = 1464294366973;     
   const negativeBigintTimestamp = -1464294366973;  
   const unsafeBigint = 99071992547409911; 
-  const negativeUnsafeBigint = -99071992547409911;
+  const negativeUnsafeBigint = -99071992547409911; 
 
   it('#test number mssql should not allow unsafe bigint', function () {
     if (!isMssql(knex)) {
