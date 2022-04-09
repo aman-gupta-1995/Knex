@@ -4,7 +4,7 @@ const { expect } = require('chai');
 const { isMssql } = require('../../util/db-helpers');
 
 module.exports = function (knex) { 
-  const bigintTimestamp = 1464294366973;  
+  const bigintTimestamp = 1464294366973;   
   const negativeBigintTimestamp = -1464294366973; 
   const unsafeBigint = 99071992547409911;
   const negativeUnsafeBigint = -99071992547409911;
