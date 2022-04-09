@@ -1,7 +1,7 @@
 'use strict';
 
 const { expect } = require('chai');
-const { isMssql } = require('../../util/db-helpers');
+const { isMssql } = require('../../util/db-helpers'); 
  
 module.exports = function (knex) { 
   const bigintTimestamp = 1464294366973;     
