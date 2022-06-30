@@ -4,7 +4,7 @@ const { success } = require('./cli-config-utils');
 
 function listMigrations(completed, newMigrations) {
   let message = '';
- 
+  
   if (completed.length === 0) {
     message += color.red('No Completed Migration files Found. \n');
   } else {
