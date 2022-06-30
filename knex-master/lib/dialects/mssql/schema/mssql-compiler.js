@@ -12,7 +12,7 @@ class SchemaCompiler_MSSQL extends SchemaCompiler {
     this.pushQuery(
       `if object_id('${name}', 'U') is not null DROP TABLE ${name}`
     );
-  }
+  } 
 
   // Rename a table on the schema.
   renameTable(tableName, to) {

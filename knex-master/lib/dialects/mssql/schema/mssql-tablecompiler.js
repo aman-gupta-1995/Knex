@@ -12,7 +12,7 @@ class TableCompiler_MSSQL extends TableCompiler {
   constructor(client, tableBuilder) {
     super(client, tableBuilder);
   }
-
+ 
   createQuery(columns, ifNot) {
     const createStatement = ifNot
       ? `if object_id('${this.tableName()}', 'U') is null CREATE TABLE `

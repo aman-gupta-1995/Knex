@@ -12,7 +12,7 @@ class ColumnCompiler_MSSQL extends ColumnCompiler {
 
   // Types
   // ------
-
+ 
   double(precision, scale) {
     return 'float';
   }

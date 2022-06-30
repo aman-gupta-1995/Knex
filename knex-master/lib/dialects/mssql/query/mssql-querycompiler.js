@@ -14,7 +14,7 @@ const components = [
   'union',
   'group',
   'having',
-  'order',
+  'order', 
   'limit',
   'offset',
 ];
