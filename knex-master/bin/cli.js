@@ -8,7 +8,7 @@ const commander = require('commander');
 const color = require('colorette');
 const argv = require('getopts')(process.argv.slice(2));
 const cliPkg = require('../package');
-const {
+const { 
   mkConfigObj,
   resolveEnvironmentConfig,
   exit,

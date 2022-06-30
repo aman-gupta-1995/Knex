@@ -6,7 +6,7 @@ const escalade = require('escalade/sync');
 const tildify = require('tildify');
 const color = require('colorette');
 const argv = require('getopts')(process.argv.slice(2));
- 
+  
 function mkConfigObj(opts) {
   if (!opts.client) {
     throw new Error(
