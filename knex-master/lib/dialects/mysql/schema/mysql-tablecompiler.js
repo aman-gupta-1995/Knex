@@ -17,7 +17,7 @@ class TableCompiler_MySQL extends TableCompiler {
       ? 'create table if not exists '
       : 'create table ';
     const { client } = this;
-    let conn = {};
+    let conn = {}; 
     let sql =
       createStatement + this.tableName() + ' (' + columns.sql.join(', ') + ')';
 

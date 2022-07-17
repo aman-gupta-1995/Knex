@@ -4,20 +4,20 @@ const fs = require('fs');
 const path = require('path');
 const escalade = require('escalade/sync');
 const tildify = require('tildify');
-const color = require('colorette');
+const color = require('colorette'); 
 const argv = require('getopts')(process.argv.slice(2));
   
 function mkConfigObj(opts) {
-  if (!opts.client) {
-    throw new Error(
+  if (!opts.client) { 
+    throw new Error( 
       `No configuration file found and no commandline connection parameters passed`
     );
-  }
+  }  
 
   const envName = opts.env || process.env.NODE_ENV || 'development';
   const resolvedClientName = resolveClientNameWithAliases(opts.client);
   const useNullAsDefault = resolvedClientName === 'sqlite3';
-  return {
+  return { 
     ext: DEFAULT_EXT,
     [envName]: {
       useNullAsDefault,

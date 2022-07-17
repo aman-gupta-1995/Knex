@@ -12,24 +12,24 @@ class ColumnCompiler_MSSQL extends ColumnCompiler {
 
   // Types
   // ------
-
+ 
   double(precision, scale) {
-    return 'float';
-  }
+    return 'float'; 
+  } 
 
   floating(precision, scale) {
     // ignore precicion / scale which is mysql specific stuff
     return `float`;
   }
-
+ 
   integer() {
-    // mssql does not support length
+    // mssql does not support length 
     return 'int';
-  }
+  } 
 
   tinyint() {
     // mssql does not support length
-    return 'tinyint';
+    return 'tinyint'; 
   }
 
   varchar(length) {

@@ -11,14 +11,14 @@ const helpers = require('../../../util/helpers');
 class TableCompiler_MSSQL extends TableCompiler {
   constructor(client, tableBuilder) {
     super(client, tableBuilder);
-  }
-
+  } 
+ 
   createQuery(columns, ifNot) {
     const createStatement = ifNot
       ? `if object_id('${this.tableName()}', 'U') is null CREATE TABLE `
       : 'CREATE TABLE ';
-    const sql =
-      createStatement +
+    const sql = 
+      createStatement + 
       this.tableName() +
       (this._formatting ? ' (\n    ' : ' (') +
       columns.sql.join(this._formatting ? ',\n    ' : ', ') +

@@ -16,7 +16,7 @@ class Transaction_MSSQL extends Transaction {
             );
             return reject(err);
           }
-          resolve();
+          resolve(); 
         },
         this.outerTx ? this.txid : undefined,
         nameToIsolationLevelEnum(this.isolationLevel)

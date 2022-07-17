@@ -13,5 +13,5 @@ class MSSQL_Formatter extends Formatter {
     return str;
   }
 }
-
+ 
 module.exports = MSSQL_Formatter;

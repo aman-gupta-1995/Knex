@@ -12,13 +12,13 @@ class SchemaCompiler_MSSQL extends SchemaCompiler {
     this.pushQuery(
       `if object_id('${name}', 'U') is not null DROP TABLE ${name}`
     );
-  }
+  } 
 
   // Rename a table on the schema.
   renameTable(tableName, to) {
-    this.pushQuery(
-      `exec sp_rename ${this.client.parameter(
-        prefixedTableName(this.schema, tableName),
+    this.pushQuery(  
+      `exec sp_rename ${this.client.parameter( 
+        prefixedTableName(this.schema, tableName), 
         this.builder,
         this.bindingsHolder
       )}, ${this.client.parameter(to, this.builder, this.bindingsHolder)}`

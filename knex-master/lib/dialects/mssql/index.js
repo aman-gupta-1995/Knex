@@ -13,7 +13,7 @@ const SchemaCompiler = require('./schema/mssql-compiler');
 const TableCompiler = require('./schema/mssql-tablecompiler');
 const ColumnCompiler = require('./schema/mssql-columncompiler');
 const QueryBuilder = require('../../query/querybuilder');
-
+ 
 const debug = require('debug')('knex:mssql');
 
 const SQL_INT4 = { MIN: -2147483648, MAX: 2147483647 };
