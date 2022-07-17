@@ -13,7 +13,7 @@ class QueryCompiler_MySQL extends QueryCompiler {
       this.client.logger.warn(
         '.returning() is not supported by mysql and will not have any effect.'
       );
-    }
+    } 
 
     this._emptyInsertValue = '() values ()';
   }

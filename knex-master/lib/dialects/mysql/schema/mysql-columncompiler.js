@@ -18,7 +18,7 @@ class ColumnCompiler_MySQL extends ColumnCompiler {
       'first',
       'after',
     ];
-  }
+  } 
 
   // Types
   // ------

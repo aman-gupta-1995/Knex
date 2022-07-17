@@ -8,14 +8,14 @@ const isEmpty = require('lodash/isEmpty');
 
 const components = [
   'columns',
-  'join',
+  'join', 
   'lock',
-  'where',
+  'where', 
   'union',
   'group',
   'having',
-  'order', 
-  'limit',
+  'order',  
+  'limit', 
   'offset',
 ];
 
