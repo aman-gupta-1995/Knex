@@ -8,7 +8,7 @@
 [![Gitter chat](https://badges.gitter.im/tgriesser/knex.svg)](https://gitter.im/tgriesser/knex) 
 [![Language Grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/knex/knex.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/knex/knex/context:javascript) 
   
-> **A SQL query builder that is _flexible_, _portable_, and _fun_ to use!**
+> **A SQL query builder that is _flexible_, _portable_, and _fun_ to use!** 
 
 A batteries-included, multi-dialect (MSSQL, MySQL, PostgreSQL, SQLite3, Oracle (including Oracle Wallet Authentication)) query builder for
 Node.js, featuring: 
