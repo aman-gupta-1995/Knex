@@ -5,7 +5,7 @@
 3. Check that master compiles and tests are running fine (check also that CI tests are passing)
 
 ```sh 
-      npm run build
+      npm run build 
 
       # run bunch of tests, but skipping coverage which doesn't really work locally at least
       npm plaintest
