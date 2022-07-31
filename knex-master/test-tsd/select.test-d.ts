@@ -1,7 +1,7 @@
 import Knex from '../types';
 import { clientConfig } from './common';
 import { expectType } from 'tsd';
-
+ 
 const knex = Knex(clientConfig);
 
 interface User {
