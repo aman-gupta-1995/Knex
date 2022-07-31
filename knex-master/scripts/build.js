@@ -27,7 +27,7 @@ const exec = function (cmd, args) {
     child.on('error', reject);
   });
 };
-
+ 
 const CWD = process.cwd();
 const POSTINSTALL_BUILD_CWD = process.env.POSTINSTALL_BUILD_CWD;
 
