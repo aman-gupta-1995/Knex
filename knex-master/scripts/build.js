@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
-const child_process = require('child_process');
+const child_process = require('child_process'); 
 const _ = require('lodash'); 
 
 const exec = function (cmd, args) {
-  return new Promise(function (resolve, reject) { 
+  return new Promise(function (resolve, reject) {  
     // Execute command 
     const child = child_process.exec(cmd, {
       cwd: process.cwd(),
