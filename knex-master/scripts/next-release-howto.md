@@ -6,7 +6,7 @@
 
 ```sh 
       npm run build 
- 
+  
       # run bunch of tests, but skipping coverage which doesn't really work locally at least
       npm plaintest
       npm bin_test
