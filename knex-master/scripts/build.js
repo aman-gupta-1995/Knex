@@ -6,7 +6,7 @@ const _ = require('lodash');
 
 const exec = function (cmd, args) {
   return new Promise(function (resolve, reject) {
-    // Execute command
+    // Execute command 
     const child = child_process.exec(cmd, {
       cwd: process.cwd(),
       env: process.env,
