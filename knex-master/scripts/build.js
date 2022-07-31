@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const child_process = require('child_process'); 
-const _ = require('lodash');  
+const _ = require('lodash');   
 
 const exec = function (cmd, args) {
   return new Promise(function (resolve, reject) {  
