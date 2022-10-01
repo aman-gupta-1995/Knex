@@ -4,7 +4,7 @@
 //     Knex may be freely distributed under the MIT license.
 //     For details and documentation:
 //     http://knexjs.org
-   
+    
 const knex = require('./lib/index');  
 
 /**
