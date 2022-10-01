@@ -21,3 +21,4 @@ knex.knex = knex;
 knex.default = knex;
 
 module.exports = knex;
+ 
