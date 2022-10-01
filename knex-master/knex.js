@@ -7,7 +7,7 @@
                 
 const knex = require('./lib/index');               
         
-/**
+/** 
  * These export configurations enable JS and TS developers
  * to consume knex in whatever way best suits their needs.
  * Some examples of supported import syntax includes:
