@@ -3,7 +3,7 @@
 //     (c) 2013-present Tim Griesser
 //     Knex may be freely distributed under the MIT license.
 //     For details and documentation: 
-//     http://knexjs.org
+//     http://knexjs.org 
                
 const knex = require('./lib/index');              
         
