@@ -5,7 +5,7 @@ Plugins and tools maintained by the knex team are listed under [Core](#core) whi
 #### [Core](#core)
 - [`casbin-knex-adapter`](https://github.com/knex/casbin-knex-adapter) Knex adapter for [Node-Casbin](https://github.com/casbin/node-casbin).
 - [`knex-schema-inspector`](https://github.com/knex/knex-schema-inspector) Utility for extracting information about the existing DB schema.
-- [`knex-tablecleaner`](https://github.com/kibertoad/knex-tablecleaner) Library for deleting all rows from a given list of DB tables.
+- [`knex-tablecleaner`](https://github.com/kibertoad/knex-tablecleaner) Library for deleting all rows f rom a given list of DB tables.
 
 #### [Community](#community)  
 - [`knex-paginate`](https://github.com/felixmosh/knex-paginate) Extension of the query builder with `paginate` method that helps with pagination tasks.
